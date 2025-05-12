@@ -40,4 +40,75 @@ A cidade de Ecoville enfrenta um grande problema na gestão de resíduos sólido
 O desafio consiste em:  
 1. **Implementar as classes `Residuo`, `Coleta`, `Usuario` e `EstacaoReciclagem`** com os métodos especiais descritos.  
 2. Criar um pequeno programa que instancie objetos dessas classes e teste suas funcionalidades.  
-3. Adicionar uma funcionalidade extra para exibir **sugestões de descarte correto** dependendo do tipo de resíduo.  
+3. Adicionar uma funcionalidade extra para exibir **sugestões de descarte correto** dependendo do tipo de resíduo.
+
+
+### 🔋 **Desafio: Sistema Inteligente de Gestão de Energia Residencial**  
+
+#### 📌 **Contextualização da Situação Problema**  
+O consumo excessivo de eletricidade em residências tem levado ao aumento da demanda por energia, causando impactos ambientais como maior emissão de carbono. Para resolver esse problema, as empresas de energia desejam desenvolver um sistema inteligente que monitore e otimize o consumo de eletricidade em tempo real, recomendando boas práticas e alternativas sustentáveis.  
+
+#### 🎯 **Requisitos Funcionais do Sistema**  
+
+1. **Classe `Dispositivo`**  
+   - Representa um aparelho eletrônico da casa.  
+   - Contém atributos como **nome**, **potência (W)** e **tempo médio de uso diário (horas)**.  
+   - Método especial (`__str__`) para exibir detalhes do dispositivo.  
+
+2. **Classe `Residencia`**  
+   - Gerencia os dispositivos em uma casa.  
+   - Possui uma lista de dispositivos elétricos cadastrados.  
+   - Método especial (`__len__`) para contar o número total de aparelhos na residência.  
+   - Método especial (`__getitem__`) para acessar um dispositivo pelo índice.  
+
+3. **Classe `PainelSolar`** 🌞  
+   - Representa um **sistema de energia solar** instalado na residência.  
+   - Contém atributos como **capacidade de geração (kWh)** e **eficiência média**.  
+   - Método especial (`__sub__`) para calcular a economia de energia proporcionada pelos painéis solares.  
+
+4. **Classe `RelatorioEnergetico`** 📊  
+   - Calcula o consumo total da residência e sugere maneiras de reduzir o gasto energético.  
+   - Método especial (`__call__`) para processar os dados dos dispositivos e gerar um relatório personalizado.  
+   - Exibe recomendações como troca de lâmpadas por LED, uso de sensores de presença, entre outras dicas.  
+
+#### 🏆 **Atividade para ser realizada**  
+O desafio consiste em:  
+1. **Implementar as classes `Dispositivo`, `Residencia`, `PainelSolar` e `RelatorioEnergetico`** com os métodos especiais descritos.  
+2. Criar um pequeno programa que instancie objetos dessas classes e simule uma residência com dispositivos elétricos e painéis solares.  
+3. Adicionar funcionalidades extras, como alerta de **pico de consumo** e sugestões para reduzir gastos.  
+
+---### 🔋 **Desafio: Sistema Inteligente de Gestão de Energia Residencial**  
+
+#### 📌 **Contextualização da Situação Problema**  
+O consumo excessivo de eletricidade em residências tem levado ao aumento da demanda por energia, causando impactos ambientais como maior emissão de carbono. Para resolver esse problema, as empresas de energia desejam desenvolver um sistema inteligente que monitore e otimize o consumo de eletricidade em tempo real, recomendando boas práticas e alternativas sustentáveis.  
+
+#### 🎯 **Requisitos Funcionais do Sistema**  
+
+1. **Classe `Dispositivo`**  
+   - Representa um aparelho eletrônico da casa.  
+   - Contém atributos como **nome**, **potência (W)** e **tempo médio de uso diário (horas)**.  
+   - Método especial (`__str__`) para exibir detalhes do dispositivo.  
+
+2. **Classe `Residencia`**  
+   - Gerencia os dispositivos em uma casa.  
+   - Possui uma lista de dispositivos elétricos cadastrados.  
+   - Método especial (`__len__`) para contar o número total de aparelhos na residência.  
+   - Método especial (`__getitem__`) para acessar um dispositivo pelo índice.  
+
+3. **Classe `PainelSolar`** 🌞  
+   - Representa um **sistema de energia solar** instalado na residência.  
+   - Contém atributos como **capacidade de geração (kWh)** e **eficiência média**.  
+   - Método especial (`__sub__`) para calcular a economia de energia proporcionada pelos painéis solares.  
+
+4. **Classe `RelatorioEnergetico`** 📊  
+   - Calcula o consumo total da residência e sugere maneiras de reduzir o gasto energético.  
+   - Método especial (`__call__`) para processar os dados dos dispositivos e gerar um relatório personalizado.  
+   - Exibe recomendações como troca de lâmpadas por LED, uso de sensores de presença, entre outras dicas.  
+
+#### 🏆 **Atividade para ser realizada**  
+O desafio consiste em:  
+1. **Implementar as classes `Dispositivo`, `Residencia`, `PainelSolar` e `RelatorioEnergetico`** com os métodos especiais descritos.  
+2. Criar um pequeno programa que instancie objetos dessas classes e simule uma residência com dispositivos elétricos e painéis solares.  
+3. Adicionar funcionalidades extras, como alerta de **pico de consumo** e sugestões para reduzir gastos.  
+
+---
